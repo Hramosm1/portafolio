@@ -268,22 +268,53 @@ h1, h2, h3, h4, h5, h6, p {
   color: #000000;
   border: 0.125rem solid #969a97;
 }
+
+.main .proyectos .contenedor-proyectos .proyecto .info2 {
+  padding: 1rem 0.5rem;
+  height: 20.625rem;
+  background: #ffffff;
+  color: #000000;
+  border: 0.125rem solid #969a97;
+}
+
 .main .proyectos .contenedor-proyectos .proyecto .info h4 {
   text-align: left;
   margin-bottom: 2.5rem;
   font-size: 1.3rem;
 }
+
+.main .proyectos .contenedor-proyectos .proyecto .info2 h3 {
+  text-align: left;
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+}
+
 .main .proyectos .contenedor-proyectos .proyecto .info h5 {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 1.1rem;
   font-weight: normal;
 }
+
+.main .proyectos .contenedor-proyectos .proyecto .info2 h5 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
 .main .proyectos .contenedor-proyectos .proyecto .info p {
   text-align: center;
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+.main .proyectos .contenedor-proyectos .proyecto .info2 p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
 .main .proyectos .contenedor-proyectos .proyecto .info p .html {
   color: #854723;
 }
@@ -394,6 +425,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .certificados {
   min-height: 100vh;
+  background: #ffffff;
+  color: #000000;
   padding: 3rem 0;
   margin-bottom: 2rem;
 }
@@ -427,7 +460,6 @@ h1, h2, h3, h4, h5, h6, p {
 .footer .contenedor .redes-sociales .social {
   width: 4.375rem;
   height: 4.375rem;
-  background: #f1f1f1;
   margin: 0 0.625rem;
   border-radius: 30%;
   box-shadow: 0 0.3125rem 0.9375rem -0.3125rem #00000070;
