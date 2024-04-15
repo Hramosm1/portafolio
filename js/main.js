@@ -15,22 +15,22 @@ $('document').ready(function(){
     la animación del texto revelado (puedes utilizar cualquier tipo de carácteres). También asigno la velocidad que tendrá el efecto de las letras*/
     profesion.set({
         characters: '█▓▓ ░░>██ ▓█▓>▓ ▓<█ ░<▒░▓ █░<█ █▒> ▓░▓< ▒▓░░',
-        speed: 50
+        speed: 90
     });
 
     // Ejecuto el inicio de la animacion.
     profesion.start();
     // Establezco la duración que tendrá la animación antes de revelar el texto.
-    profesion.reveal(2000);
+    profesion.reveal(1000);
 
     var boton = document.getElementById('boton');
         
     $('#tagline').t({
         beep:false,
-        caret:'<span style="color:hotpink;">•</span>',
+        caret:'<span style="color:hotpink;">|</span>',
         typing:function(elm,chr){
         if(chr.match(/\-trigger/))
-            $('#pow-txt').show().delay(500).fadeOut(0);
+            $('#pow-txt').show().delay(50).fadeOut(0);
         }
     });
 
