@@ -15,7 +15,7 @@ $('document').ready(function(){
     la animación del texto revelado (puedes utilizar cualquier tipo de carácteres). También asigno la velocidad que tendrá el efecto de las letras*/
     profesion.set({
         characters: '█▓▓ ░░>██ ▓█▓>▓ ▓<█ ░<▒░▓ █░<█ █▒> ▓░▓< ▒▓░░',
-        speed: 90
+        speed: 80
     });
 
     // Ejecuto el inicio de la animacion.
@@ -26,6 +26,7 @@ $('document').ready(function(){
     var boton = document.getElementById('boton');
         
     $('#tagline').t({
+        speed: 15,
         beep:false,
         caret:'<span style="color:hotpink;">|</span>',
         typing:function(elm,chr){
