@@ -15,7 +15,7 @@ $('document').ready(function(){
     la animación del texto revelado (puedes utilizar cualquier tipo de carácteres). También asigno la velocidad que tendrá el efecto de las letras*/
     profesion.set({
         characters: '█▓▓ ░░>██ ▓█▓>▓ ▓<█ ░<▒░▓ █░<█ █▒> ▓░▓< ▒▓░░',
-        speed: 80
+        speed: 75
     });
 
     // Ejecuto el inicio de la animacion.
